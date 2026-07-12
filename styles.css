@@ -18,6 +18,7 @@
 body {
   font-family: "Outfit", sans-serif;
   max-width: 100%; /* Lebih aman dibanding 100dvw untuk mencegah horizontal scroll */
+  background: var(--Stone-100);
 
   /* Media query langsung digabung di sini */
   @media screen and (min-width: 700px) {
@@ -73,6 +74,14 @@ ol {
       font-family: "Outfit", sans-serif; /* Dihapus duplikasi Young Serif */
     }
   }
+}
+
+.recipe-page {
+  background: var(--White);
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 1rem;
+  padding: 2rem;
 }
 
 .main-section {
