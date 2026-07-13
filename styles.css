@@ -27,8 +27,7 @@ body {
 }
 
 h1,
-h2,
-h3 {
+h2 {
   font-family: "Young Serif", serif;
   font-weight: 400;
 }
@@ -81,7 +80,10 @@ ol {
   max-width: 700px;
   margin: 0 auto;
   border-radius: 1rem;
-  padding: 2rem;
+
+  @media screen and (min-width: 700px) {
+    padding: 2rem;
+  }
 }
 
 .main-section {
